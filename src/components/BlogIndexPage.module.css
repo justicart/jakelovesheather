@@ -1,0 +1,58 @@
+.mainPic {
+  object-fit: cover;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(0deg, rgba(0,0,0,0.3), transparent 20%);
+}
+
+.content {
+  background: white;
+}
+.container {
+  margin: 0 auto;
+  max-width: 42rem;
+  padding: 2.625rem 1.3125rem;
+}
+
+.title {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 3.5rem;
+  margin-top: 0;
+  margin-bottom: 2.625rem;
+  padding-left: 2em;
+  text-rendering: optimizeLegibility;
+  position: absolute;
+  bottom: 0;
+}
+.title a {
+  color: white;
+  text-decoration: none;
+}
+.description {
+  color: white;
+  font-weight: 400;
+  font-size: .7em;
+}
+
+.articlesList,
+.articlesList > li {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2.625rem;;
+}
+
+.footer {
+  margin-top: 7rem;
+  margin-bottom: 0.5rem;
+}

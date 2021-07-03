@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-navi'
 import siteMetadata from '../siteMetadata'
 import ArticleSummary from './ArticleSummary'
-import Bio from './Bio'
 import Pagination from './Pagination'
 import styles from './BlogIndexPage.module.css'
 
@@ -11,7 +10,7 @@ import mainPic from '../images/cropped-ChristmasMiniSession2020-1.jpeg';
 function BlogIndexPage({ blogRoot, pageCount, pageNumber, postRoutes }) {
   return (
     <div>
-      <img className={styles.mainPic} src={mainPic} />
+      <img className={styles.mainPic} src={mainPic} alt="Jake and Heather being fancy" />
       <header className={styles.header}>
         <h1 className={styles.title}>
           <Link href={blogRoot}>{siteMetadata.title}</Link>

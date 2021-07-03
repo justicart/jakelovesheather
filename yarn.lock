@@ -9082,9 +9082,9 @@ natural-orderby@^2.0.1:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/natural-orderby/-/natural-orderby-2.0.3.tgz#8623bc518ba162f8ff1cdb8941d74deb0fdcc016"
 
-navi-scripts@^0.13.3:
-  version "0.13.3"
-  resolved "https://registry.yarnpkg.com/navi-scripts/-/navi-scripts-0.13.3.tgz#6ab8e3c84bfdef70a7e55e9f039302571718952e"
+navi-scripts@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/navi-scripts/-/navi-scripts-0.14.0.tgz#c071db115bd2b7216dd89b98a2e7f51b58fc3219"
   dependencies:
     "@babel/core" "^7.1.2"
     "@babel/preset-env" "^7.1.0"

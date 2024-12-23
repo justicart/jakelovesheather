@@ -5,7 +5,7 @@ import ArticleSummary from './ArticleSummary'
 import Pagination from './Pagination'
 import styles from './BlogIndexPage.module.css'
 
-import mainPic from '../images/Hamblin-Christmas-Photo-2022.jpg';
+import mainPic from '../images/Hamblin-Christmas-Photo-2024.jpg';
 
 function BlogIndexPage({ blogRoot, pageCount, pageNumber, postRoutes }) {
   return (
